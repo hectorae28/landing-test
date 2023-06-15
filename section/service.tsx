@@ -24,7 +24,7 @@ const Service = () => {
                 text="Nuestros Servicios"
             />
             <div className="flex flex-col lg:flex-row justify-center">
-                {data.map((item, index) => <ServiceCard item={item} index={index} />)}
+                {data.map((item, index) => <ServiceCard item={item} key={index} index={0} />)}
             </div>
             
         </div>
